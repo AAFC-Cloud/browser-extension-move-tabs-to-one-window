@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Move Tabs</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+      min-width: 150px;
+    }
+    button {
+      padding: 8px 15px;
+      cursor: pointer;
+      display: block; /* Make button full width */
+      width: 100%;
+      box-sizing: border-box; /* Include padding and border in width */
+    }
+    #status {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h2>Move Tabs</h2>
+  <p>Click the button below to move all tabs from other windows into this one.</p>
+  <button id="moveTabsButton">Move All Tabs Here</button>
+  <p id="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

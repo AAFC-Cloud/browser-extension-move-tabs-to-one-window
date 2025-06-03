@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Move All Tabs to First Window",
+    "version": "1.0",
+    "description": "Moves all tabs from other browser windows into the window the extension button is clicked from.",
+    "permissions": [
+      "tabs",
+      "windows"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icons/logo.png"
+      }
+    }
+  }
